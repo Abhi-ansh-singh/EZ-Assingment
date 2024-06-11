@@ -1,0 +1,14 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 569px) {
+  .card-container {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}

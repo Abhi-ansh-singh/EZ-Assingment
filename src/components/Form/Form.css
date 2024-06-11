@@ -1,0 +1,48 @@
+.form-group {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group input {
+  border-color: #ababab;
+  font-family: "Evo 2", sans-serif;
+  font-size: larger;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: grey;
+  font-family: "Exo 2", sans-serif;
+}
+
+.form-group button {
+  height: 45px;
+  background: #ea7b2c 0% 0% no-repeat padding-box;
+  border: 1px solid #ea7b2c;
+  border-radius: 7px;
+  opacity: 1;
+  cursor: pointer;
+  padding: 11px 10px;
+  font-size: large;
+  color: #ffffff;
+}
+.error-message {
+  margin: 2px 0 0 2px;
+  color: #ef4444;
+  font-size: medium;
+}
+
+.success-message {
+  margin: 2px 0 0 2px;
+  color: #22c55e;
+  font-size: medium;
+}
+
+@media screen and (max-width: 480px) {
+  .form-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
